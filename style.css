@@ -1,0 +1,149 @@
+
+html {
+  font-family: Goldman Regular;
+  font-size: 100;
+  font-weight: bold;
+  color: white;
+}
+
+body {
+  background: black;
+  margin: 0;
+}
+
+nav {
+list-style-type: none;
+font-size: 2.5rem;
+position: fixed;
+display: flex;
+width: 100%;
+min-height: 10vh;
+align-items: center;
+flex-wrap: wrap;
+background: #00a9c7;
+justify-content: space-between;
+}
+
+
+
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 0 4rem 0 4rem;
+}
+li a:hover:not(.active) {
+  background: #0098b6;
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  padding: 4rem;
+  padding-bottom: 1rem;
+}
+
+.hacker {
+  width: 5vw;
+  margin-left: 2rem;
+}
+
+.hacker2 {
+  width: 100vw;
+  height: auto;
+}
+
+.htmlcss {
+  width: 24vw;
+  float: left;
+  padding-right: 7rem
+}
+
+.javascript {
+  width: 17vw;
+  float: right;
+  padding-right: 5rem;
+  padding-left: 7rem;
+}
+
+.php {
+  width: 20vw;
+  float: right;
+  padding-right: 7rem;
+}
+
+.sql {
+  width: 30vw;
+  float: right;
+  padding-left: 7rem;
+}
+
+p {
+  padding: 0 2rem 0 7rem
+}
+
+
+footer {
+  position: relative;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  height: 5vh;
+  width: 100%;
+  background: #00a9c7;
+}
+
+.dropbtn {
+    background-color: #03a5c2;
+    color: rgb(247, 240, 240);
+    font-size: 2rem;
+    border: none;
+    font-weight: bold;
+    padding: 0 4rem 0 4rem;
+
+    
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: #00a8c7;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {
+    background-color: #e9e9e9;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown:hover .dropbtn {
+    background-color: white;
+    color: #00a8c7;
+  }
+  .jaar2{
+margin-bottom: auto;
+
+  }
+  .p4{
+    margin-bottom: auto;
+  }
